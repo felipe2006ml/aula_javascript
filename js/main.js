@@ -1,6 +1,11 @@
 function clicou(){
-    document.getElementById('agradecimento').innerHTML = 'Obrigado por clicar';
+    document.getElementById('agradecimento').innerHTML = '<b>Obrigado por clicar</b>';
 
+}
+
+function redirecionamento(){
+    //window.open('https://google.com.br');
+    window.location.href = 'https://google.com.br';
 }
 
 /*
